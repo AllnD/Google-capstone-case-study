@@ -50,5 +50,14 @@ FROM DailyActivity
 --There are actually 33 distinct IDs contrary to the 30--
  </code></pre>
 
+<pre><code>
+--Running SQL script to check for duplicates--
+Select Id, ActivityDate, TotalSteps, Count(*)
+From aboutsql.BellaBeat.Daily_Activity
+group by id, ActivityDate, TotalSteps
+Having Count(*) > 1
+
+-- No duplicates </code></pre>--
+
 
 
