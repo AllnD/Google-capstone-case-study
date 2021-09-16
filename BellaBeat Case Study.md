@@ -24,6 +24,31 @@ The datasets provided are available as public domain license listed as Kaggle: F
 <p> 2.2.	Limitations <p>
 This data is outdated as it was done in 2016. Also it only involves a small sampling size of 30 people which hardly represents the fitness community. In terms of ROCCC, it is fairly low. There is also a lack of information on water intact which might reduce the effectiveness of the recommendations on one of Bellabeat’s product which is spring. It was also evident that some data were missing such as weight log which only list 8 users, as not all users log their data. It is highly likely that the outcome of this analysis will be skewed as the data sets are of poor quality. 
 
+<p> 2.3.	Key Tasks<p>
+Preparing the data by downloading and cleaning it. Some deduction made of the data source:
+<br> •	The data sources focused on a few themes that Fitbit users are all familiar with which is tracking sleep, physical activity such as steps and calories burned. <br> 
+•	Some files are repeated information and would not be of use. dailySteps_merged , dailyCalories_merged is a summary of the same info from dailyActivty.
+•	I only used files which have major representation of weight loss, calorie burnt and activity. This means inly selecting weightLogInfo_merged.csv,
+dailyIntensities_merged.csv
+•	dailyActivity_merged.csv
+
+## 3.PROCESS ##
+Using excel to clean data by separating string values in a cell. This would then allow BigQuery to import the table.
+Using BiqQuery as the RDMS, I will clean the data from duplicates, null values and cleaning string functions.
+Data cleaning process involves the following
+<ul>
+<li>Removing duplicates-Checking and removing duplicate rows and creating new tables in SQL on cleaned data</li>
+<li>Checking for consistency-Ensuring the length of the ID were consistent</li>
+<li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
+<li>Illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
+</ul>
+ <pre><code>
+ --Double checking that all IDs in DailyActivity have the same number of characters--
+
+SELECT LENGTH(Id)
+FROM DailyActivity
+--There are actually 33 distinct IDs contrary to the 30--
+ </code></pre>
 
 
 
