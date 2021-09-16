@@ -56,7 +56,25 @@ FROM DailyActivity
 </li>
 <li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
 <li>Illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
-</ul>
+<li>Finding duplicates in data
+<pre><code>--Finding duplicate in sleepDay table
+SELECT Id,TotalTimeInBed,TotalMinutesAsleep 
+FROM `aboutsql. BellaBeat.Sleep_day`
+GROUP BY Id, SleepDay, TotalSleepRecords, TotalTimeInBed, TotalMinutesAsleep
+HAVING Count(*) > 1
+--Found 3 duplicates, 
+Hence need to recreate a new table minus the duplicate--
+
+CREATE OR REPLACE TABLE aboutsql.BellaBeat.Sleep_day2
+AS 
+SELECT DISTINCT *
+FROM `aboutsql.BellaBeat.Sleep_day`
+--New table returns 410 rows indicating 3 duplicate rows removed--
+</code></pre> </li>
+  
+  </ul>
+
+
  
 
 
