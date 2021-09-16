@@ -95,6 +95,23 @@ aggregate data here
 ## 5. SHARE ##
 Loading into R to create relationships based on graph. 
 
+```{r ggplot for penguin data}
+library(ggplot2)
+
+library(palmerpenguins)
+
+data(penguins)
+
+View(penguins)
+```
+
+```{r ggplot for penguins data visualzation}
+ggplot(data = penguins) +
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+![image](https://user-images.githubusercontent.com/88995922/133588664-9ded83eb-3447-4767-be20-5e26f323a780.png)
+
 
 ## 6.	ACT ##
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
