@@ -86,7 +86,7 @@ aggregate data here
 
 <ul>
 <li> There is positive correlation between steps taken and calories burnt </li>
-<li> Of 24 available participants, they do seem to have a healthy BMI range with a median of 24.9 and no obese levels, suggesting that survey participants have good weight management. However, 37.5 % is overweight.
+<li> Of 24 distinct Ids on available participants, they do seem to have a healthy BMI range with a median of 24.9 and no obese levels, suggesting that survey participants have good weight management. However, 37.5 % is overweight.
 
   ![image](https://user-images.githubusercontent.com/88995922/133640291-e5b82bb8-faef-47d1-bac9-c686bddad52d.png)
 
@@ -135,12 +135,12 @@ ggplot(data = penguins) +
 
   
 ## 6.	ACT ##
-Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
+Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the gaps that can help improve the tracking of variables realted to user health. Hence, the following areas are proposed for Bella marketing.
 #### <p> 6.1 Recommendations <p> ####
 <ol>
-<li> Enhance the products to track and sound alarm for sedentary or inactive times.</li>
-<li> Participants didn’t burn more calories on days that they worked vs. days they didn’t. Create a tracker and reminder on this e</li>
-<li> Create an app in the products that can predict sleep time and stress.</li>
+<li> Enhance the products to track BMI since it seems that participants have truuble logging in this data.</li>
+<li> Create a tracker or reminder on low activity days on monday, tuesday and thursday.</li>
+<li> Create a new function in the products that can regulate sleep time.</li>
 </ol>
 
 ### =======================THE END===========================
