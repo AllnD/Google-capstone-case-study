@@ -29,8 +29,7 @@ This data is outdated as it was done in 2016. Also it only involves a small samp
 Preparing the data by downloading and cleaning it. Some deduction made of the data source:
 <br> •	The data sources focused on a few themes that Fitbit users are all familiar with which is tracking sleep, physical activity such as steps and calories burned. <br> 
 •	Some files are repeated information and would not be of use such as dailySteps_merged , dailyCalories_merged is a summary of the same info from dailyActivty.
-I only used files which have major representation of weight loss, calorie burnt and activity. This means inly selecting weightLogInfo_merged.csv,
-dailyIntensities_merged.csv and dailyActivity_merged.csv
+I only used files which have major representation of sleep, BMI, calorie burnt and activity levels.
 
 ## 3. PROCESS ##
 I will be using both excel and SQL to clean data by separating string values in a cell and filtering. This would also allow altering the scehma in the CSV files to ensure BigQuery can import the table. Using BiqQuery as the RDMS, I have cleaned the data from duplicates, null values and converting string functions.
@@ -80,10 +79,7 @@ FROM DailyActivity
   
 ## 4. ANALYSE ##
 
-After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs activities vs calories burned in a seven day period. 
-https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm defintiion of good BMI
-aggregate data here
-
+After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs activities vs calories burned in a seven day period. A good BMI is between 18.5—24.9 (https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
 <ul>
 <li> There is positive correlation between steps taken and calories burnt </li>
 <li> Of 24 distinct Ids on available participants, they do seem to have a healthy BMI range with a median of 24.9 and no obese levels, suggesting that survey participants have good weight management. However, 37.5 % is overweight.
