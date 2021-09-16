@@ -115,6 +115,8 @@ ggplot(data = penguins) +
 
 <p>5.2 Tableau dashboard <p>
 
+![image](https://user-images.githubusercontent.com/88995922/133612519-64ce730f-6cfb-4e00-b425-c0bb9b66f84b.png)
+
   
 ## 6.	ACT ##
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
