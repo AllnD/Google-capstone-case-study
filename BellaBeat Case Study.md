@@ -135,7 +135,7 @@ Based on the conclusions drawn from our analysis , the proposed recommendations 
 #### <p> 6.1 Recommendations <p> ####
 <ol>
 <li> Enhance the products to track BMI since it seems that participants have truuble logging in this data.</li>
-<li> Create a tracker or reminder on low activity days on monday, tuesday and thursday.</li>
+<li> Create a tracker or reminder to hit some form of target activity level on low activity days on monday, tuesday and thursday.</li>
 <li> Create a new function in the products that can regulate sleep time.</li>
 </ol>
 
