@@ -89,7 +89,20 @@ aggregate data here
 <li> Activity levels have a positive correlation with calories burned </li>	
 <li> Sedentary lifestyles and calories burnt have a negative correlation. Hence,</li>
 <li> From the joined tables, the users data shows that the ones with highest activity , steps and sleep shows the best weight and calories burned.
- </li><ul>
+ </li>
+</ul>
+
+## 5. SHARE ##
+Loading into R to create relationships based on graph. 
+
+
+## 6.	ACT ##
+Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
+7.1.	Enhance the products to track and sound alarm for sedentary or inactive times.
+7.2.	Participants didn’t burn more calories on days that they worked vs. days they didn’t. Create a tracker and reminder on this 
+7.3.	Create an app in the products that can predict sleep time and stress.
+
+
 
 
  
