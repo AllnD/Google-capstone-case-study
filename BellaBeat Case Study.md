@@ -118,8 +118,8 @@ ggplot(data = penguins) +
 <ul>
 <li> There is positive correlation between activity levels and calories burnt. Not surprising, thre is negative correlation on sedentary lifestyles with calories burnt. </li>
 <li> Activity levels have a positive correlation with calories burned </li> </ul>
-![image](https://user-images.githubusercontent.com/88995922/133616446-47b10acd-cc39-407d-9401-2fab0e19467e.png)
-![image](https://user-images.githubusercontent.com/88995922/133617121-fa2523a4-b5dd-42f2-aea8-a28a30677b1b.png)
+
+![image](https://user-images.githubusercontent.com/88995922/133618354-0a101325-d0ba-4b5e-8e41-d01daa14505b.png)
 
 
 
