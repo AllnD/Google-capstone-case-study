@@ -86,7 +86,11 @@ aggregate data here
 
 <ul>
 <li> There is positive correlation between steps taken and calories burnt </li>
-<li> Activity levels have a positive correlation with calories burned </li>	
+<li> Of 24 available participants, they do seem to have a healthy BMI range, suggesting that Fitbit users have good weight management. 
+
+  ![image](https://user-images.githubusercontent.com/88995922/133640291-e5b82bb8-faef-47d1-bac9-c686bddad52d.png)
+
+</li>	
 <li> Sedentary lifestyles and calories burnt have a negative correlation. Hence,</li>
 <li> From the joined tables, the users data shows that the ones with highest activity , steps and sleep shows the best weight and calories burned.
  </li>
