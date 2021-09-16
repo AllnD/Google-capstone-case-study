@@ -32,7 +32,7 @@ Preparing the data by downloading and cleaning it. Some deduction made of the da
 I only used files which have major representation of sleep, BMI, calorie burnt and activity levels.
 
 ## 3. PROCESS ##
-I will be using both excel and SQL to clean data by separating string values in a cell and filtering. This would also allow altering the scehma in the CSV files to ensure BigQuery can import the table. Using BiqQuery as the RDMS, I have cleaned the data from duplicates, null values and converting string functions.
+I will be using both excel and SQL to clean data by separating string values in a cell and filtering. This would also allow altering the schema in the CSV files to ensure BigQuery can import the table. Using BiqQuery as the RDMS, I have cleaned the data from duplicates, null values and converting string functions.
 Data cleaning process involves the following
 <ul>
 <li> Removing duplicates-Checking and removing duplicate rows and creating new tables in SQL on cleaned data
