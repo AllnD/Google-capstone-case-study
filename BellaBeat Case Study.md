@@ -98,7 +98,7 @@ Loading into R to create relationships based on graph.
 
 ## 6.	ACT ##
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
-
+<p> 6.1 Recommendations <p>
 <ol>
 <li> Enhance the products to track and sound alarm for sedentary or inactive times.</li>
 <li> Participants didn’t burn more calories on days that they worked vs. days they didn’t. Create a tracker and reminder on this e</li>
