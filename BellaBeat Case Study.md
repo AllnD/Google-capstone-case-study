@@ -91,8 +91,8 @@ aggregate data here
   ![image](https://user-images.githubusercontent.com/88995922/133640291-e5b82bb8-faef-47d1-bac9-c686bddad52d.png)
 
 </li>	
-<li> Sedentary lifestyles and calories burnt have a negative correlation. Hence,</li>
-<li> From the joined tables, the users data shows that the ones with highest activity , steps and sleep shows the best weight and calories burned.
+<li> The highest calories burnt are friday, saturday and sundays, which suggest participants are most active on non work days.</li>
+<li> There is weak correlation on sleep and calories burned. Hence it would not be something to pursue further.
  </li>
 </ul>
 
