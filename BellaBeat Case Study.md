@@ -116,7 +116,7 @@ ggplot(data = penguins) +
 
 #### <p>5.2 Tableau dashboard <p> ####
 <ul>
-<li> There is positive correlation between activity levels and calories burnt. Not surprising, thre is negative correlation on sedentary lifestyles with calories burnt. </li>
+<li> There is positive correlation between activity levels and calories burnt. The higher the activity level, the more density and increase in calories burnt. Not surprising, there is negative correlation on sedentary lifestyles with calories burnt. </li>
 <li> Activity levels have a positive correlation with calories burned </li> </ul>
 
 ![image](https://user-images.githubusercontent.com/88995922/133635482-06c217a0-7699-405c-a62c-af74292780aa.png)
