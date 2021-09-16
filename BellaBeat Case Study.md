@@ -93,7 +93,9 @@ aggregate data here
 </ul>
 
 ## 5. SHARE ##
-Loading into R to create relationships based on graph. 
+After analysing the data and deducing the conclusion based on the relationships and correaltion of the various factors, the data will be presented in a visualised form to share it with stakeholders to communicate the findings. I have used both R and Tableaus for this.
+
+<p> 5.1 Loading used packages into R to create relationships based on graph. <p>
 
 ```{r ggplot for penguin data}
 library(ggplot2)
@@ -112,7 +114,9 @@ ggplot(data = penguins) +
 ```
 ![image](https://user-images.githubusercontent.com/88995922/133588664-9ded83eb-3447-4767-be20-5e26f323a780.png)
 
+<p>5.2 Tableau dashboard <p>
 
+  
 ## 6.	ACT ##
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
 <p> 6.1 Recommendations <p>
