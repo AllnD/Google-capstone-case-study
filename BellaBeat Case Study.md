@@ -27,10 +27,9 @@ This data is outdated as it was done in 2016. Also it only involves a small samp
 <p> 2.3.	Key Tasks<p>
 Preparing the data by downloading and cleaning it. Some deduction made of the data source:
 <br> •	The data sources focused on a few themes that Fitbit users are all familiar with which is tracking sleep, physical activity such as steps and calories burned. <br> 
-•	Some files are repeated information and would not be of use. dailySteps_merged , dailyCalories_merged is a summary of the same info from dailyActivty.
-•	I only used files which have major representation of weight loss, calorie burnt and activity. This means inly selecting weightLogInfo_merged.csv,
-dailyIntensities_merged.csv
-•	dailyActivity_merged.csv
+•	Some files are repeated information and would not be of use such as dailySteps_merged , dailyCalories_merged is a summary of the same info from dailyActivty.
+I only used files which have major representation of weight loss, calorie burnt and activity. This means inly selecting weightLogInfo_merged.csv,
+dailyIntensities_merged.csv and dailyActivity_merged.csv
 
 ## 3.PROCESS ##
 Using excel to clean data by separating string values in a cell. This would then allow BigQuery to import the table.
@@ -44,19 +43,8 @@ Select Id, ActivityDate, TotalSteps, Count(*)
 From aboutsql.BellaBeat.Daily_Activity
 group by id, ActivityDate, TotalSteps
 Having Count(*) > 1
--- No duplicates-- </code></pre> </li>
-<li>Checking for consistency-Ensuring the length of the ID were consistent
-<pre><code>
- --Double checking that all IDs in DailyActivity have the same number of characters--
+-- No duplicates-- </code></pre>
 
-SELECT LENGTH(Id)
-FROM DailyActivity
---There are actually 33 distinct IDs contrary to the 30--
- </code></pre>
-</li>
-<li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
-<li>Identifying illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
-<li>Finding duplicates in data and creating temporary table
 <pre><code>--Finding duplicate in sleepDay table
 
 SELECT Id,TotalTimeInBed,TotalMinutesAsleep 
@@ -71,7 +59,22 @@ AS
 SELECT DISTINCT *
 FROM `aboutsql.BellaBeat.Sleep_day`
 --New table returns 410 rows indicating 3 duplicate rows removed--
-</code></pre> </li>
+</code></pre>
+
+ </li>
+<li>Checking for consistency-Ensuring the length of the ID were consistent
+<pre><code>
+ --Double checking that all IDs in DailyActivity have the same number of characters--
+
+SELECT LENGTH(Id)
+FROM DailyActivity
+--There are actually 33 distinct IDs contrary to the 30--
+ </code></pre>
+</li>
+<li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
+<li>Identifying illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
+<li> Agregating data 
+ </li>
   
   </ul>
   
