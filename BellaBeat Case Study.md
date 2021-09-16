@@ -95,7 +95,7 @@ aggregate data here
 ## 5. SHARE ##
 After analysing the data and deducing the conclusion based on the relationships and correaltion of the various factors, the data will be presented in a visualised form to share it with stakeholders to communicate the findings. I have used both R and Tableaus for this.
 
-<p> 5.1 Loading used packages into R to create relationships based on graph. <p>
+#### <p> 5.1 Loading used packages into R to create relationships based on graph. <p> ####
 
 ```{r ggplot for penguin data}
 library(ggplot2)
@@ -114,7 +114,7 @@ ggplot(data = penguins) +
 ```
 ![image](https://user-images.githubusercontent.com/88995922/133588664-9ded83eb-3447-4767-be20-5e26f323a780.png)
 
-<p>5.2 Tableau dashboard <p>
+#### <p>5.2 Tableau dashboard <p> ####
 <ul>
 <li> There is positive correlation between activity levels and calories burnt. Not surprising, thre is negative correlation on sedentary lifestyles with calories burnt. </li>
 <li> Activity levels have a positive correlation with calories burned </li> </ul>
@@ -125,7 +125,7 @@ ggplot(data = penguins) +
   
 ## 6.	ACT ##
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the available variables that constitute health improvements. Users that move more, have better sleep and take more steps have better weight. Hence, the following areas are proposed for Bella marketing.
-<p> 6.1 Recommendations <p>
+#### <p> 6.1 Recommendations <p> ####
 <ol>
 <li> Enhance the products to track and sound alarm for sedentary or inactive times.</li>
 <li> Participants didn’t burn more calories on days that they worked vs. days they didn’t. Create a tracker and reminder on this e</li>
