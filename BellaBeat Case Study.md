@@ -80,7 +80,7 @@ FROM DailyActivity
   
 ## 4. ANALYSE ##
 
-After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs stress vs activities vs calories burned. 
+After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs activities vs calories burned in a seven day period. 
 https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm defintiion of good BMI
 aggregate data here
 
