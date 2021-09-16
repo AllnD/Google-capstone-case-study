@@ -86,7 +86,7 @@ aggregate data here
 
 <ul>
 <li> There is positive correlation between steps taken and calories burnt </li>
-<li> Of 24 available participants, they do seem to have a healthy BMI range, suggesting that Fitbit users have good weight management. 
+<li> Of 24 available participants, they do seem to have a healthy BMI range with a median of 24.9 and no obese levels, suggesting that survey participants have good weight management. However, 37.5 % is overweight.
 
   ![image](https://user-images.githubusercontent.com/88995922/133640291-e5b82bb8-faef-47d1-bac9-c686bddad52d.png)
 
