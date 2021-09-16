@@ -55,7 +55,7 @@ FROM DailyActivity
  </code></pre>
 </li>
 <li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
-<li>Illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
+<li>Identifying illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
 <li>Finding duplicates in data
 <pre><code>--Finding duplicate in sleepDay table
 SELECT Id,TotalTimeInBed,TotalMinutesAsleep 
@@ -73,6 +73,19 @@ FROM `aboutsql.BellaBeat.Sleep_day`
 </code></pre> </li>
   
   </ul>
+  
+## 4. ANALYSE ##
+
+After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs stress vs activities vs calories burned. 
+https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm defintiion of good BMI
+aggregate data here
+
+<ul>
+<li> There is positive correlation between steps taken and calories burnt </li>
+<li> Activity levels have a positive correlation with calories burned </li>	
+<li> Sedentary lifestyles and calories burnt have a negative correlation. Hence,</li>
+<li> From the joined tables, the users data shows that the ones with highest activity , steps and sleep shows the best weight and calories burned.
+ </li><ul>
 
 
  
