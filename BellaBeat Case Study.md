@@ -4,8 +4,8 @@
 This is a case study for the Google analytics certificate which focuses on a high-tech manufacturer named Bellabeat. The purpose of this case study is to allow the analyst to analyse the provided datasets and utilize Google’s 6 step data analysis process to identify possible growth opportunities for the company to expand.
 
 ## 1.	ASK ##
-This first phase involves defining the problem by asking the right question and thinking in a structured way. 
-main stakeholder are identified. 
+This first phase involves defining the problem by asking the right question and thinking in a structured way 
+with the identified main stakeholders in mind. 
 <p> 1.1 Stakeholders <p>
 <ol>
 <li>First is the founder and CEO Urska Srsen </li>
