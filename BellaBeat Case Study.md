@@ -126,7 +126,7 @@ ggplot(data = penguins) +
   
 </li>
   
-<li> Activity levels have a positive correlation with calories burned
+<li> Analysis on the correlation of activitis , calories ,sleep in a 7 day period.
   
 ![image](https://user-images.githubusercontent.com/88995922/133636951-3b55ebdc-29e5-4f3a-a981-9ee9faefd3a4.png)
   
