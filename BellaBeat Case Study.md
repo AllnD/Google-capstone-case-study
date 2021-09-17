@@ -70,7 +70,7 @@ FROM DailyActivity
 --There are actually 33 distinct IDs contrary to the 30--
  </code></pre>
 </li>
-<li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table.</li>
+<li>Converting data types -Using excel to separate data string of date and time in cells so that it can be imported into Big Query as a table. This step is crucial to also ensure that tables can be linked in tableau and SQL with standardised primary keys</li>
 <li>Identifying illogical Data- A few columns indicated zero activities such as steps. This is more somewhat illogical and could rather indicate that respondents were not wearing their Fitbit.</li>
 <li> Agregating data 
  </li>
