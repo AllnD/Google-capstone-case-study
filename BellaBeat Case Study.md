@@ -88,7 +88,7 @@ After cleaning the data and preparing it ready for analysis, this phase involves
 
 </li>	
 <li> The highest calories burnt are friday, saturday and sundays, which suggest participants are most active on non work days.</li>
-<li> There is weak correlation on sleep and calories burned. Also, amount of sleep is not realted to activity levels.Hence it would not be something to pursue further.
+<li> There is weak correlation on sleep and calories burned. Also, amount of sleep is not related to activity levels. The patterns reveals that work days are main factors impacting sleep, activity levels and hence calories burnt. This suggests participants sleep less and move less due to work commitments with an exception on wednesday.
  </li>
 </ul>
 
