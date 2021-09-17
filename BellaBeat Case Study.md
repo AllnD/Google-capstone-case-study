@@ -134,7 +134,7 @@ ggplot(data = penguins) +
 Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the gaps that can help improve the tracking of variables realted to user health. With the stakeholders interest in consideration which involves cost saving and optimisation of resource, the following areas are proposed for Bella marketing to further explore.
 #### <p> 6.1 Recommendations <p> ####
 <ol>
-<li> Enhance the exisiting products to include BMI tracking since it is an obvious gap. It seems that participants have trouble or finds it inconvenient logging in this data.</li>
+<li> Enhance the exisiting products to include BMI/weight tracking since it is an obvious gap. It seems that participants have trouble or finds it inconvenient logging in this data.</li>
 <li> Create a calory and activity plan to better make use of off days. The activity levels and calories burnt can be much higher. Then create a tracker or reminder to hit some form of target activity level based on that plan especially on low activity days on monday, tuesday and thursday.</li>
 
 </ol>
