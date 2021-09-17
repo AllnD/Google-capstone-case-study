@@ -79,7 +79,7 @@ FROM DailyActivity
   
 ## 4. ANALYSE ##
 
-After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs activities vs calories burned in a seven day period. A good BMI is between 18.5—24.9 (https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
+After cleaning the data and preparing it ready for analysis, this phase involves analyzing the data with the goal of identifying patterns and conclusions, and trying to make predictions and conclusions. As mentioned in section 2, the hypothesis to test are factors that determine a person’s health that open up opportunities for BellaBeat to offer new services. Hence relationships between sleep vs activities vs calories burned in a seven day period is examined. A good BMI is between 18.5—24.9 (https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
 <ul>
 <li> There is positive correlation between steps taken and calories burnt </li>
 <li> Of 24 distinct Ids on available participants, they do seem to have a healthy BMI range with a median of 24.9 and no obese levels, suggesting that survey participants have good weight management. However, 37.5 % is overweight.
