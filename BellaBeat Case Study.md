@@ -93,7 +93,7 @@ After cleaning the data and preparing it ready for analysis, this phase involves
 </ul>
 
 ## 5. SHARE ##
-After analysing the data and deducing the conclusion based on the relationships and correlation of the various factors, the data will be presented in a visualised form to share it with stakeholders to communicate the findings. I have used both R and Tableaus for this.
+After analysing the data and deducing the conclusion based on the relationships and correlation of the various factors, the data will be presented in a visualised form to share it with stakeholders to communicate the findings. I have used both R and Tableau for this.
 
 #### <p> 5.1 Loading used packages into R to create relationships based on graph. <p> ####
 
