@@ -96,7 +96,7 @@ After cleaning the data and preparing it ready for analysis, this phase involves
 After analysing the data and deducing the conclusion based on the relationships and correlation of the various factors, the data will be presented in a visualised form to share it with stakeholders to communicate the findings. I have used both R and Tableau for this.
 
 #### <p> 5.1 Loading used packages into R to create relationships based on graph. <p> ####
-<ul>
+
 <li> Identifying relationships with scatter graph</li>
   
 ```{r ggplot for daily activities data}
@@ -118,7 +118,7 @@ library(ggplot2)
 ![L1](https://user-images.githubusercontent.com/88995922/140601296-752ce494-fa3d-442a-92de-ccf9de3b6ac6.png)
 ![L2](https://user-images.githubusercontent.com/88995922/140601300-554abdc2-477b-4da5-add8-96e5ee6a786e.png)
 ![L3](https://user-images.githubusercontent.com/88995922/140601302-b4ef3c9c-f98a-40f1-8779-de362b4f5d72.png)
-<ul>
+
 
 #### <p>5.2 Tableau dashboard <p> ####
 <ul>
