@@ -119,7 +119,8 @@ ggplot(data = penguins) +
 <ul>
 <li> There is positive correlation between activity levels and calories burnt. The higher the activity level, the more density and increase in calories burnt. Not surprising, there is negative correlation on sedentary lifestyles with calories burnt.
   
-![image](https://user-images.githubusercontent.com/88995922/133635482-06c217a0-7699-405c-a62c-af74292780aa.png)
+[image](https://user-images.githubusercontent.com/88995922/140600388-2c200459-c4a0-4e09-926e-abed2dca9b19.png)
+
   
 </li>
   
