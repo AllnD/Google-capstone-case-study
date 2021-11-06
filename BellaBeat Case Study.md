@@ -113,13 +113,13 @@ ggplot(data = penguins) +
 
   geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
 ```
-![image](https://user-images.githubusercontent.com/88995922/133588664-9ded83eb-3447-4767-be20-5e26f323a780.png)
+![VeryActive](https://user-images.githubusercontent.com/88995922/140600428-9f6a76d2-37f2-4705-8c3d-ec778ee1820f.png)
+
 
 #### <p>5.2 Tableau dashboard <p> ####
 <ul>
 <li> There is positive correlation between activity levels and calories burnt. The higher the activity level, the more density and increase in calories burnt. Not surprising, there is negative correlation on sedentary lifestyles with calories burnt.
   
-[image](https://user-images.githubusercontent.com/88995922/140600388-2c200459-c4a0-4e09-926e-abed2dca9b19.png)
 
   
 </li>
