@@ -97,7 +97,11 @@ After analysing the data and deducing the conclusion based on the relationships 
 
 #### <p> 5.1 Loading used packages into R to create relationships based on graph. <p> ####
 
-```{r ggplot for penguin data}
+```{r ggplot for daily activities data}
+> install.packages("tidyverse")
+Installing package into ‘/cloud/lib/x86_64-pc-linux-gnu-library/4.1’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘colorspace’, ‘sys’, ‘bit’, ‘ps’, ‘base64enc’, ‘fastmap’, ‘rappdirs’, ‘rematch’, ‘farver’, ‘labeling’, ‘munsell’, ‘RColorBrewer’, ‘viridisLite’, ‘askpass’, ‘bit64’, ‘prettyunits’, ‘processx’, ‘evaluate’, ‘highr’, ‘yaml’, ‘xfun’, ‘htmltools’, ‘tinytex’, ‘jquerylib’, ‘backports’, ‘ellipsis’, ‘generics’, ‘glue’, ‘assertthat’, ‘blob’, ‘DBI’, ‘lifecycle’, ‘R6’, ‘tidyselect’, ‘vctrs’, ‘withr’, ‘data.table’, ‘gargle’, ‘uuid’, ‘cellranger’, ‘curl’, ‘ids’, ‘rematch2’, ‘digest’, ‘gtable’, ‘isoband’, ‘scales’, ‘cpp11’, ‘pkgconfig’, ‘mime’, ‘openssl’, ‘fansi’, ‘utf8’, ‘clipr’, ‘vroom’, ‘tzdb’, ‘Rcpp’, ‘progress’, ‘callr’, ‘fs’, ‘knitr’, ‘rmarkdown’, ‘selectr’, ‘stringi’, ‘broom’, ‘cli’, ‘crayon’, ‘dbplyr’, ‘dplyr’, ‘dtplyr’, ‘forcats’, ‘googledrive’, ‘googlesheets4’, ‘ggplot2’, ‘haven’, ‘hms’, ‘httr’, ‘jsonlite’, ‘lubridate’, ‘magrittr’, ‘modelr’, ‘pillar’, ‘purrr’, ‘readr’, ‘readxl’, ‘reprex’, ‘rlang’, ‘rstudioapi’, ‘rvest’, ‘stringr’, ‘tibble’, ‘tidyr’, ‘xml2’
 library(ggplot2)
 
 library(palmerpenguins)
