@@ -127,7 +127,7 @@ library(ggplot2)
   
 </li>
   
-<li> Analysis on the correlation of activitis , calories ,sleep in a 7 day period.
+<li> Analysis on the correlation of activities , calories and sleep in a 7 day period.
   
 ![image](https://user-images.githubusercontent.com/88995922/133636951-3b55ebdc-29e5-4f3a-a981-9ee9faefd3a4.png)
   
@@ -136,7 +136,7 @@ library(ggplot2)
 
   
 ## 6.	ACT ##
-Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the gaps that can help improve the tracking of variables realted to user health. With the stakeholders interest in consideration which involves cost saving and optimisation of resource, the following areas are proposed for Bella marketing to further explore.
+Based on the conclusions drawn from our analysis , the proposed recommendations should focus on the gaps that can help improve the tracking of variables related to user health. With the stakeholders interest in consideration which involves cost saving and optimisation of resource, the following areas are proposed for Bella marketing to further explore.
 #### <p> 6.1 Recommendations <p> ####
 <ol>
 <li> Enhance the exisiting products to include BMI/weight tracking since it is an obvious gap. It seems that participants have trouble or finds it inconvenient logging in this data.</li>
