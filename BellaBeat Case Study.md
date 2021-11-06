@@ -109,11 +109,13 @@ library(ggplot2)
 ```
 
 ```{r ggplot for various relationships data visualzation}
-> ggplot(data=daily)+geom_point(mapping = aes(x=VeryActiveMinutes,y=Calories))
+> ggplot(data=daily)+geom_point(mapping = aes(x=FairlyActiveMinutes,y=Calories,color=TotalSteps))
+
 ```
-![lighlty](https://user-images.githubusercontent.com/88995922/140600499-bd8207a0-74dd-4530-8d1d-9d159d60d357.png)
-![fairly](https://user-images.githubusercontent.com/88995922/140600689-bd53cfb7-c21c-49e7-8746-a1de5dcf5df9.png)
-![VeryActive](https://user-images.githubusercontent.com/88995922/140600428-9f6a76d2-37f2-4705-8c3d-ec778ee1820f.png)
+![L0](https://user-images.githubusercontent.com/88995922/140601295-b61fb5f7-2759-4a2d-b746-96fac752389f.png)
+![L1](https://user-images.githubusercontent.com/88995922/140601296-752ce494-fa3d-442a-92de-ccf9de3b6ac6.png)
+![L2](https://user-images.githubusercontent.com/88995922/140601300-554abdc2-477b-4da5-add8-96e5ee6a786e.png)
+![L3](https://user-images.githubusercontent.com/88995922/140601302-b4ef3c9c-f98a-40f1-8779-de362b4f5d72.png)
 
 
 #### <p>5.2 Tableau dashboard <p> ####
